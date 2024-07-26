@@ -1,0 +1,8 @@
+mymodule.settings:
+  path: '/admin/config/module1'
+  defaults:
+    _controller: '\Drupal\module1\Controller\SettingsController::displayName'
+    _title: 'Module1 Settings'
+  requirements:
+    _permission: 'custom permission'
+ 
